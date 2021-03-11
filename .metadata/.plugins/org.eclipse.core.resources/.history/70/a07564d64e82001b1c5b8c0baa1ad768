@@ -1,0 +1,36 @@
+package com.example.demo;
+
+public class CalcBean {
+
+	private String addition;
+	private String subtraction;
+	private String division;
+	private String multiplication;
+
+
+public void setAddition(String addition) {
+		this.addition = addition;
+	}
+
+
+	public void setSubtraction(String subtraction) {
+		this.subtraction = subtraction;
+	}
+
+
+	public void setDivision(String division) {
+		this.division = division;
+	}
+
+
+	public void setMultiplication(String multiplication) {
+		this.multiplication = multiplication;
+	}
+
+
+public String eval() {
+	
+	
+	return null;
+}
+}

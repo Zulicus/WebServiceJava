@@ -1,0 +1,15 @@
+package com.example.demo;
+
+public class CalcBean {
+
+	private String input;
+
+	public void setInput(String input) {
+		this.input = input;
+	}
+public String eval() {
+	
+	
+	return null;
+}
+}

@@ -1,0 +1,28 @@
+package com.example.demo;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CalculateController {
+
+	
+	@RequestMapping(method = RequestMethod.GET, path = "/")
+	public String helloWorld() {
+		return "<h1>Hello</h1>";
+	}
+	
+	
+	@RequestMapping(method = RequestMethod.GET, value = "/math")
+	public String calculate(String addition,String subtraction,String divition,String multiplication) {
+		CalcBean bean = new CalcBean();
+		bean.setAddition(addition);
+		bean.setSubtraction(subtraction);
+		bean.setDivision(divition);
+		bean.setMultiplication(multiplication);
+		return null;
+		
+	}	
+	
+}

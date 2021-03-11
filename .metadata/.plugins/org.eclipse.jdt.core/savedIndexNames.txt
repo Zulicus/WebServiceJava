@@ -1,0 +1,13 @@
+INDEX VERSION 1.131+C:\Users\robin\Documents\GitHub\WebServiceJava\.metadata\.plugins\org.eclipse.jdt.core
+652924973.index
+4260970331.index
+1197446883.index
+1397278752.index
+4277323827.index
+3598279490.index
+439732925.index
+1694196369.index
+3598276023.index
+4177249037.index
+2368507512.index
+4098821797.index

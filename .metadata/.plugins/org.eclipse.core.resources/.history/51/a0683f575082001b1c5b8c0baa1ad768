@@ -1,0 +1,18 @@
+package com.example.demo;
+
+public class CalcBean {
+
+	private String equation;
+
+
+
+public void setEquation(String equation) {
+		this.equation = equation;
+	}
+
+public String eval() {
+	
+	System.out.println(equation.split("*")[0]);
+	return null;
+}
+}
